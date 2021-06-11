@@ -1,18 +1,17 @@
-# Salesforce DX Project: Next Steps
+# Covid Statistics Visualizer
+ 
+This repository contains Salesforce SFDX based project for visualising statistics related to Corona virus pandemic throughout the world. D3 is being used as thrid party library with Lightning Web Components to achieve visualization of different charts and world map. Data is fetched at real time using [Coronavirus Covid19 API](https://api.covid19api.com/)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+# Glance
+![Covid Stats World Map](/force-app/main/default/documents/screenshots/worldMap.png "Global Distribution of Covid Cases")
 
-## How Do You Plan to Deploy Your Changes?
+![Covid Stats Country Calendar Charts](/force-app/main/default/documents/screenshots/calendarCharts.png "Charts for country showing daily Covid cases")
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+![Covid Stats Country Charts](/force-app/main/default/documents/screenshots/countryCharts.png "Charts for country showing progress in Covid cases")
 
-## Configure Your Salesforce DX Project
+![Covid Stats World Table](/force-app/main/default/documents/screenshots/statsTable.PNG "Table highlighting Covid cases for each country")
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+# Built With
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+* Lightning Web Components - Salesforce based web framework
+* D3 - JavaScript library for visualizing data using web standards
